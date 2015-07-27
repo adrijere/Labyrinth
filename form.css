@@ -1,0 +1,57 @@
+#map {
+    border: 1px solid black;
+    background: green;
+    display: block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+#player {
+    background: black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#bloc {
+    background: red;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+#top {
+    position: relative;
+    left: 33px;
+}
+
+#start {
+    background: blue;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#end {
+    background: pink;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+#defeat {
+    color: red;
+}

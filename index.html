@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Moves</title>
+     <link rel="stylesheet" href="form.css" type="text/css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>     
+     <script type="text/javascript" src ="moves.js"></script>
+  </head>
+
+  <body>
+    <div id="map" compteur="30">
+      <div id="bloc">
+    	</div>
+    <div id="start">
+	   </div>
+    <div id="end">
+	   </div>
+    <div id="player">
+      </div>
+    </div>
+<button class="move" id="top">^</button><br />
+<button class="move">&lt;</button>
+<button class="move">v</button>
+<button class="move">&gt;</button>
+
+<div id="cpt">
+  <p></p>
+</div>
+
+<div id ="defeat">
+  <p>C'est <strong>perdu</strong> ! Retente ta chance en cliquant ici</p>
+</div>
+
+<div id="dialog">
+  <p></p>
+</div>
+
+<script> init(); </script>
+
+  </body>
+</html>

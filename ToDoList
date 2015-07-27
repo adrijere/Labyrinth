@@ -1,0 +1,6 @@
+Génération random des maps
+Map à la suite
+Map timé ou limitation de mouvement
+Algo pour faire des murs avec sizeX et sizeY
+
+parser map existante via JSON parsing : http://www.w3schools.com/json/json_eval.asp
